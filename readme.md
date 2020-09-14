@@ -125,6 +125,7 @@ Quake has 4 episodes that are split into 2 files:
 These files aren't free to distribute, but `pak0.pak` is sufficient to run the game and it's freely available via the
 [shareware version of Quake](http://bit.ly/2aDMSiz). Use [7-Zip](http://7-zip.org/) or a similar file archiver to extract
 `quake106.zip/resource.1/ID1/PAK0.PAK`. Alternatively, if you own the game, you can obtain both .pak files from its install media.
+If your .pak files are capitalized (like PAK0.PAK) then renaming them to have all lowercase caps will allow them to run.
 
 Now locate your vkQuake executable, i.e. `vkQuake.exe` on Windows or `vkquake` on Ubuntu. You need to create an `id1` directory
 next to that and copy `pak0.pak` there, e.g.:
